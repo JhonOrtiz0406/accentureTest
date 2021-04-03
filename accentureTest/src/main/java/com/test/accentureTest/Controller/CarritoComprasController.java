@@ -49,8 +49,8 @@ public class CarritoComprasController {
         // }
         int i = 0;
         i = horaLimiteH2 - horaSistema;
-        if(i<0){
-        i = i * -1;
+        if (i < 0) {
+            i = i * -1;
         }
         if ((i >= 0 && i <= 5)) {
             if (horaLimiteH2 > 24) {
