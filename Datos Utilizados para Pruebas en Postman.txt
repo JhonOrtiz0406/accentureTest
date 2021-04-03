@@ -1,0 +1,90 @@
+Correr un proyecto en VScode: mvnw.cmd spring-boot:root
+
+Cliente
+{
+    "nombre": "Jhon",
+    "apellido": "Ortiz",
+    "celular": 20120,
+    "identificacion": 19019,
+    "direccion": "Cra 5 #3-56",
+    "barrio": "Santa Elena"
+}
+{
+    "nombre": "Kevin",
+    "apellido": "Ortiz",
+    "celular": 20120,
+    "identificacion": 19019,
+    "direccion": "Cra 5 #3-56",
+    "barrio": "Santa Ines"
+}
+{
+    "nombre": "Liceth",
+    "apellido": "Ortiz",
+    "celular": 20120,
+    "identificacion": 19019,
+    "direccion": "Cra 5 #3-56",
+    "barrio": "Santa Clara"
+}
+
+Producto
+{
+    "nombre": "Biffe",
+    "valor": 50000,
+    "descripcion": "Biffe de Chorizo wagyu"
+}
+{
+    "nombre": "Punta Anca",
+    "valor": 20000,
+    "descripcion": "Punta Anca wagyu"
+}
+{
+    "nombre": "Tendon",
+    "valor": 30000,
+    "descripcion": "Tendon wagyu"
+}
+
+Domicilios
+{
+    "barrio": "Santa Elena",
+    "valor": 2000
+}
+{
+    "barrio": "Santa Ines",
+    "valor": 4000
+}
+{
+    "barrio": "Santa Clara",
+    "valor": 3000
+}
+
+Carrito Compras
+
+{  
+    "horaCompra":0,
+    "cantidad": 3,
+    "domicilio" :0,
+    "subTotal": 0.0,
+    "iva": 0.0,
+    "total": 0,
+    "totalAntiguo": 0,
+    "productos": {
+        "id": 1,
+        "nombre": "Tendon",
+        "valor": 30000,
+        "descripcion": "Tendon wagyu"
+    },
+    "cliente": {
+        "id": 1,
+        "nombre": "Jhon",
+        "apellido": "Ortiz",
+        "celular": 20120,
+        "identificacion": "19019",
+        "direccion": "Cra 5 #3-56",
+        "barrio": "Santa Elena"
+    },
+    "domicilios": {
+        "id": 1,
+        "barrio": "Santa Elena",
+        "valor": 2000
+    }
+}
