@@ -52,6 +52,7 @@ Historia de Usuario 2: Completada a Medias debido a que no logre separar una var
         "valor": 2000
     }
 }
+
 Historia de Usuario 3: En cuanto a la Historia de usuario si me permitio colococar el aviso de que despues de haber transcurrido
 			las 12 horas, si lo deja eliminar y le cobra un 10% extra; pero...lasimosamente no entiendo porque no me 
 			trae el valor total del carrito, pero en cuanto a la formula e instanciacion si estan bien.
